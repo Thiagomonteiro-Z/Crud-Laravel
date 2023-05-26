@@ -1,8 +1,8 @@
 @extends('layouts.tela')
 @section('content')
-  
+
   <div class="card" style="margin:20px;">
-    <div class="card-header">Cadastrar Novos Produtos</div>
+    <div class="card-header">Cadastrar Novos Produtos!</div>
       <div class="card-body">
           <form action="{{ url('produtos') }}" method="post">
             {!! csrf_field() !!}
